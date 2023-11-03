@@ -1,0 +1,72 @@
+.subscribe-button{
+    background-color: rgb(199, 0, 0);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    
+}
+.subscribe-button:hover{
+    opacity: 0.8;
+}
+.subscribe-button:active{
+    opacity: 0.5es;
+}
+.join-button{
+    
+    border-color: rgb(6, 95, 212);
+    background-color: white;
+    color: rgb(6, 95, 212);
+    height: 35px;
+    border-width: 2px;
+    width: 65px;
+    border-radius: 2px;
+    border-style: solid;
+    transition: background-color 0.15s,color 0.15s;
+    cursor: pointer;
+}
+.join-button:hover{
+    background-color: rgb(6, 95, 212);
+    color: white
+}
+.join-button:active{
+    opacity: 0.7;
+}
+.tweet-button{
+    background-color: rgb(29, 155, 240);
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    transition: box-shadow 0.15s;
+}
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+.linkedin{
+    background-color: rgb(10, 102, 194);
+    height:36px;
+    width:205px;
+    color: white;
+    border-radius: 18px;
+    font-weight: bold;
+}
+.save{
+    height:36px;
+    border-radius: 18px;
+    width:80px;
+    font-weight: bold; 
+    border-color: rgb(10, 102, 194);
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(10, 102, 194);
+    border-style: solid;
+}
